@@ -1,0 +1,111 @@
+/* #region Header */
+body{
+    padding-top: 120px;
+    background:rgb(250, 248, 248)
+}
+#navigation{
+    border: 2px solid rgb(17, 175, 101); 
+    text-align: center;
+    background: rgb(20, 212, 139);
+    font-size: 18px;
+    color:white;
+}
+a {
+    color: white;
+}
+#home-link{
+    text-align: center;
+    margin:auto;
+    padding:auto;
+}
+#logo{   
+    width: 75px;
+    height:75px;
+    border-radius: 60%;
+    float: left;
+    border: 4px #082015 solid
+}
+#toggle{
+    background:rgb(17, 175, 101);
+}
+#toggle-icon{
+    color: white;
+}
+#navbarResponsive{
+    float:right;
+}
+.nav-guide{
+    float:inline-start;
+
+}
+
+/* #endregion Header */
+
+/* #region Profile */
+.container{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profile-img{
+    height: 400px;
+    width:350px;
+}
+
+hr{
+    color: rgb(17, 175, 101);
+    border:1.5px solid;
+}
+
+#mern{
+    width: 300px;
+    height:150px;
+    
+}
+/* #endregion Profile */
+
+/* #region Projects */
+.image{
+    width:800px;
+    height:400px;
+    margin: 20px; 
+    text-align: center;
+    border:1px solid #082015;
+}
+
+#title{
+    text-align:justify;
+}
+/* #endregion Projects */
+
+/* #region Contact */
+.container {
+    padding: 50px;
+    margin-top: 40px;
+}
+
+#main {
+    border: 5px solid #0dd67c;
+}
+
+.form-group {
+
+    border-radius: 3%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+/* #endregion Contact */
+
+/* #region Footer */
+footer{
+    color:#082015;
+    background: rgb(20, 212, 139);
+}
+
+img{
+    width:25px;
+    height:25px;
+    text-align: match-parent;
+}
+/* #endregion Footer */
