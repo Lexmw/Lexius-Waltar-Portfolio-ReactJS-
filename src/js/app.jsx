@@ -11,13 +11,12 @@ export default class App extends React.Component {
         return(
             <div>
               <Header/>
-              <div id="section_1" style={{"padding":"50px 0px"}}><Profile/></div>
-              <div id="section_2" style={{"padding":"50px 0px"}}><Projects/></div>
-              <div id="section_3" style={{"padding":"50px 0px"}}><Contact/></div>
-              
-              <Footer/>
-
-               
+              <div id='container'>
+                <div id="section_1" style={{"padding":"50px 0px"}}><Profile/></div>
+                <div id="section_2" style={{"padding":"50px 0px"}}><Projects/></div>
+                <div id="section_3" style={{"padding":"50px 0px"}}><Contact/></div>
+              </div>
+              <Footer/> 
             </div>
         )
     }

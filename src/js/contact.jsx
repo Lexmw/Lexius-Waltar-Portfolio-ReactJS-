@@ -22,7 +22,7 @@ export default class Contact extends React.Component{
     
     render(){
         return(
-            <div className='container'>
+            <div className='content-holder'>
             <div className='center'>
                 <h2> Contact Me!</h2>
             </div>
@@ -37,7 +37,7 @@ export default class Contact extends React.Component{
                         </div>
     
                         <div className='col-md-6'>
-                            <label for="lastName">Last Name:>
+                            <label for="lastName">Last Name:
                             <input id="lastName" className='form-control' name="lastName" type="text"/>
                             </label>
                         </div>

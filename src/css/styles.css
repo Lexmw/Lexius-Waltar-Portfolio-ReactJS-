@@ -1,17 +1,37 @@
-/* #region Header */
-body{
-    padding-top: 120px;
-    background:rgb(250, 248, 248)
+/* #region Global Vars */
+
+#container {
+    width: 75%;
+    margin: auto;
 }
+
+body{
+    padding-top: 90px;
+    background: radial-gradient(circle, rgba(193,245,193,1) 46%, rgba(193,245,193,1) 46%, rgba(246,250,249,1) 89%)
+}
+
+.content-holder{
+    margin-top:50px;
+}
+
+/* #endregion Global vars */
+
+/* #region Header */
+
 #navigation{
-    border: 2px solid rgb(17, 175, 101); 
+    border-bottom: 2px solid #11af65;
     text-align: center;
-    background: rgb(20, 212, 139);
+    background: #f5faf8;
     font-size: 18px;
-    color:white;
+    color: #11af65;
+}
+
+#header-holder{
+    display: block;
+    width: 84%;
 }
 a {
-    color: white;
+    color: #11af65;
 }
 #home-link{
     text-align: center;
@@ -19,11 +39,15 @@ a {
     padding:auto;
 }
 #logo{   
-    width: 75px;
-    height:75px;
+    width: 55px;
+    height:55px;
     border-radius: 60%;
     float: left;
-    border: 4px #082015 solid
+    border: 2px #082015 solid
+}
+
+#logo-holder{
+    margin-left: 4%;
 }
 #toggle{
     background:rgb(17, 175, 101);
@@ -31,9 +55,9 @@ a {
 #toggle-icon{
     color: white;
 }
-#navbarResponsive{
+/* #navbarResponsive{
     float:right;
-}
+} */
 .nav-guide{
     float:inline-start;
 
@@ -42,14 +66,10 @@ a {
 /* #endregion Header */
 
 /* #region Profile */
-.container{
-    padding: 20px;
-    margin-top: 20px;
-}
 
 .profile-img{
-    height: 400px;
-    width:350px;
+    height: 200px;
+    width:150px;
 }
 
 hr{
@@ -79,10 +99,6 @@ hr{
 /* #endregion Projects */
 
 /* #region Contact */
-.container {
-    padding: 50px;
-    margin-top: 40px;
-}
 
 #main {
     border: 5px solid #0dd67c;
@@ -100,12 +116,20 @@ hr{
 /* #region Footer */
 footer{
     color:#082015;
-    background: rgb(20, 212, 139);
+    background: #f5faf8;
 }
 
 img{
     width:25px;
     height:25px;
     text-align: match-parent;
+}
+
+.footer-list-item {
+    display: inline;
+}
+
+#glyphs-row{
+    margin-left: 31%;
 }
 /* #endregion Footer */

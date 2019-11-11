@@ -3,7 +3,7 @@ import React from "react";
 export default class Profile extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="content-holder">
         <div className="row">
           <div className="col-md-4" id="image-holder">
             <img className="profile-img" src="../photo/profile_img.jpg" />

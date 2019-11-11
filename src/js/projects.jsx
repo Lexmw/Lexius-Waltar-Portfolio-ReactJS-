@@ -3,7 +3,7 @@ import React from "react";
 export default class Projects extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="content-holder">
         <h1 id="title">Projects...</h1>
         <ul className="list-unstyled" style={{'text-align':'center'}}>
           <li>
