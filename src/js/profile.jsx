@@ -27,7 +27,7 @@ export default class Profile extends React.Component {
           </div>
         </div>
         <hr />
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-4" style={{'text-align':'center'}}>
             <h3>Tech Stack</h3>
             <h4>Feel the MERN!</h4>
@@ -40,7 +40,7 @@ export default class Profile extends React.Component {
               and Node.js.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

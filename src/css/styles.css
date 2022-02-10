@@ -7,7 +7,7 @@
 
 body{
     padding-top: 90px;
-    background: radial-gradient(circle, rgba(193,245,193,1) 46%, rgba(193,245,193,1) 46%, rgba(246,250,249,1) 89%)
+    /* background: radial-gradient(circle, rgba(193,245,193,1) 46%, rgba(193,245,193,1) 46%, rgba(246,250,249,1) 89%) */
 }
 
 .content-holder{
@@ -19,11 +19,11 @@ body{
 /* #region Header */
 
 #navigation{
-    border-bottom: 2px solid #11af65;
+    border-bottom: 2px solid #034929;
     text-align: center;
     background: #f5faf8;
     font-size: 18px;
-    color: #11af65;
+    color: #034929;
 }
 
 #header-holder{
@@ -31,7 +31,7 @@ body{
     width: 84%;
 }
 a {
-    color: #11af65;
+    color: #034929;
 }
 #home-link{
     text-align: center;
@@ -50,7 +50,7 @@ a {
     margin-left: 4%;
 }
 #toggle{
-    background:rgb(17, 175, 101);
+    background:#034929;
 }
 #toggle-icon{
     color: white;
@@ -73,7 +73,7 @@ a {
 }
 
 hr{
-    color: rgb(17, 175, 101);
+    color: #034929;
     border:1.5px solid;
 }
 
@@ -88,28 +88,92 @@ hr{
 .image{
     width:800px;
     height:400px;
-    margin: 20px; 
-    text-align: center;
     border:1px solid #082015;
 }
 
 #title{
     text-align:justify;
 }
+
+.container {
+    position: relative;
+    /* width: 70%; */
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin:0px;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #034929;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 5%;
+    box-shadow: 0 8px 6px -6px black;
+  }
+
+  .text p{
+      color: white;
+  }
+
+  .Project-items{
+      display: flex;
+      flex-basis: 50%;
+      flex-direction: column;
+      text-align: left;
+      padding: 0px;
+      Margin: 50px 5px;
+  }
+
 /* #endregion Projects */
 
 /* #region Contact */
 
 #main {
-    border: 5px solid #0dd67c;
+    border: 5px solid #034929;
 }
 
 .form-group {
-
-    border-radius: 3%;
     padding: 20px;
     margin: 10px;
     font-size: 20px;
+}
+
+.form-group input[type=submit] {
+    background-color: #034929;
+    color: white;
+}
+
+.form-group input[type=submit]:hover {
+    background-color: seagreen;
 }
 /* #endregion Contact */
 
@@ -133,3 +197,6 @@ img{
     margin-left: 31%;
 }
 /* #endregion Footer */
+
+/* //Image styles */
+
